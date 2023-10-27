@@ -1,6 +1,7 @@
-""" Get unencrypted 'Saved Password' from Google Chrome
+"""
     Supported platform: Mac, Linux and Windows
 """
+
 import json
 import os
 import platform
@@ -13,10 +14,6 @@ from os import unlink
 from shutil import copy
 
 import secretstorage
-
-__author__ = 'Unknow'
-__email__ = 'unknow@gmail.com'
-
 
 class ChromeMac:
     """ Decryption class for chrome mac installation """
